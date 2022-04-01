@@ -1,6 +1,6 @@
 let textto = '';
 
-
+//este comentario es de prueba de git
 
 function countLetters(textArray){
 
@@ -9,8 +9,7 @@ function countLetters(textArray){
     let retorno = "";
 
     if(textArray.length > 0){
-    for (let i = 0; i < textArray.length; 
-        i++) {
+    for (let i = 0; i < textArray.length; i++) {
         
          temporalLetter = textArray[i];   
          if(textArray[i] == textArray[i + 1]){
